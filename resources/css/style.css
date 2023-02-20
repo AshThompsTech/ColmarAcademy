@@ -77,3 +77,82 @@ nav a{
     color: white;
     padding: 8px;
 }
+
+.practicing img{
+padding: 32px 24px;
+}
+
+.practicing{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.practicing p{
+    text-align: left;
+}
+
+.practice{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.orientation{
+    display: flex;
+}
+
+.orientation img{
+    padding: 16px;
+}
+
+.ocontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.campus{
+    display: flex;
+}
+
+.campus img{
+    padding: 16px;
+}
+
+.ccontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lecture{
+    background-color: lightgray;
+    display: flex;
+}
+
+.lecture img{
+    padding: 16px;
+}
+
+.lcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+}
+
+.features img{
+    height: auto;
+    width: 35%;
+}
+
+.mid{
+    display: inline-flex;
+}
