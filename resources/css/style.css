@@ -146,6 +146,9 @@ padding: 32px 24px;
     flex-direction: column;
     height: auto;
     width: 40%;
+    border-left: solid;
+    border-color: lightgray;
+    border-width: thin;
 }
 
 .features img{
@@ -155,4 +158,111 @@ padding: 32px 24px;
 
 .mid{
     display: inline-flex;
+}
+.gallery-title{
+    padding: 32px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+.gallery-container{
+    background-color: lightgray;
+    height: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: auto;
+    padding-left: 72px;
+    padding-right: 72px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery{
+    background-color: white;
+    margin-bottom: 24px;
+}
+
+.gallery-a{
+    background-color: white;
+    margin-bottom: 24px;
+}
+
+.thesis-title{
+    justify-content: center;
+    display: flex;
+}
+
+.vid-player{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    width:60%;
+}
+
+.vid{
+    display: flex;
+    flex-direction: column;
+}
+.vid-content{
+    padding: 24px;
+}
+
+.fisma-now{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    justify-items: center;
+    padding-top: 20px;
+
+}
+.fisma{
+    display: inline-flex;
+    background-color: lightgray;
+
+}
+
+.fisma-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+}
+
+.now{
+    display: inline-flex;
+}
+
+.now-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+}
+
+.thesis{
+    display: inline-flex;
+    width: 100%;
+}
+
+
+.copyright{
+   
+}
+
+.terms ul{
+    list-style: none;
+    display: inline-flex;
+}
+
+.terms li{
+    padding-right: 16px;
+}
+
+.end{
+    display: inline-flex;
+    border-top: solid;
+    border-color: lightgray;
+    border-width: thin;
+    width: 100%;
 }
